@@ -21,7 +21,7 @@ exports.getBrands = (req, res, next) => {
     brandDto.getAll({}, (error, data) => {
         if (error) {
             return res.status(400).json({
-                message: 'error getting categories'
+                message: 'error getting brands'
             });
         };
 
